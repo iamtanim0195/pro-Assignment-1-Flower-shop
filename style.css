@@ -111,7 +111,23 @@ body {
 .card3 {
     background-color: rgba(71, 125, 17, 0.15);
 }
-.cardName{
-	display: flex;
-	justify-content: space-around;
+
+.cardName {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* service */
+.service {
+    display: flex;
+    justify-content: space-around;
+    margin: 60px;
+    padding: 50px;
+    background-color: rgba(39, 39, 39, 0.05);
+}
+
+.service div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
