@@ -75,6 +75,10 @@ body {
     padding: 50px 0px;
 }
 
+.featured p {
+    padding-top: 25px;
+}
+
 /* cards */
 .cards {
     padding: 10px 50px;
@@ -130,4 +134,53 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+/* hot deal */
+.hot {
+    color: rgba(229, 84, 115, 1);
+}
+
+.hot-deal {
+    text-align: center;
+}
+
+.hot-img img {
+    width: 50%;
+}
+
+/* instagram image */
+.instagram-img {
+    display: flex;
+    padding: 50px;
+    justify-content: space-around;
+}
+
+.instagram-img img {
+    width: 250px;
+}
+
+/* Subscribe */
+.subscribe {
+	margin: auto;
+	width: 90%;
+    background-image: url("/images/Rectangle 9.png");
+}
+
+.input {
+    margin: auto;
+	margin-bottom: 50px;
+    width: 700px;
+	padding-bottom: 50px;
+}
+
+input[type=email],
+select {
+    width: 60%;
+    padding: 12px 20px;
+    margin: 8px 0px;
+    margin-left: 100px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
 }
