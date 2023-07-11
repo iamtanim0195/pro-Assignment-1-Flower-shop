@@ -1,5 +1,68 @@
-/* common shared styles */
+/* common shared styles*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: 'Lato', sans-serif;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#banner {
+    padding-top: 25px;
+    background-color: rgba(229, 84, 115, 0.10);
+    ;
+}
+
+.banner-row {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.banner-left-col {
+    flex-basis: 50%;
+
+}
+
+.banner-right-col {
+    flex-basis: 50%;
+    text-align: center;
+}
+
+.banner-right-col img {
+    width: 70%;
+
+}
+
+.banner-left-col {
+    max-width: 500px;
+    margin: auto;
+}
+
+
+.banner-left-col h1 {
+    font-size: 50px;
+}
+
+.banner-left-col p {
+    font-size: 20px;
+    text-align: justify;
+    margin: 15px 0px;
+}
+
+
+.btn {
+    padding: 10px;
+    margin: 10px 0px;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    background: #E55473;
+}
+
+.btn:hover {
+    background-color: #fb02b0
 }
