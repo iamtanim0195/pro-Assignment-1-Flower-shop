@@ -184,3 +184,11 @@ select {
     border-radius: 4px;
     box-sizing: border-box;
 }
+/* footer */
+footer{
+	color: #ffffff;
+	background-color: black;
+}
+.address{
+	color: rgba(255, 255, 255, 0.4);
+}
