@@ -9,7 +9,7 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
-#banner {
+.banner {
     padding-top: 25px;
     background-color: rgba(229, 84, 115, 0.10);
     ;
@@ -65,4 +65,53 @@ body {
 
 .btn:hover {
     background-color: #fb02b0
+}
+
+/* Featured */
+.featured {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0px;
+}
+
+/* cards */
+.cards {
+    padding: 10px 50px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 30%;
+    border-radius: 300px 300px 0px 0px;
+}
+
+.card img {
+    padding-top: 10%;
+    width: 70%;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card1 {
+    background-color: rgba(167, 33, 98, 0.15);
+}
+
+.card2 {
+    background-color: rgba(5, 151, 160, 0.15);
+}
+
+.card3 {
+    background-color: rgba(71, 125, 17, 0.15);
+}
+.cardName{
+	display: flex;
+	justify-content: space-around;
 }
